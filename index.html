@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Amber Academy — premium courses with lessons that linger."
+    />
+    <title>Amber Academy — Golden lessons that linger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#hero-title">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="#hero">Amber Academy</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#hero">Home</a>
+          <a href="#programs">Programs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero__inner">
+          <p class="hero__eyebrow">Amber Academy</p>
+          <div class="honey-headline">
+            <h1 id="hero-title" class="honey-headline__text">
+              Golden lessons that linger.
+            </h1>
+            <div class="honey-layer" aria-hidden="true">
+              <span class="honey-bar"></span>
+              <span class="honey-drip" style="--i: 1"></span>
+              <span class="honey-drip" style="--i: 2"></span>
+              <span class="honey-drip" style="--i: 3"></span>
+              <span class="honey-drip" style="--i: 4"></span>
+              <span class="honey-drip" style="--i: 5"></span>
+              <span class="honey-drip" style="--i: 6"></span>
+              <span class="honey-drip" style="--i: 7"></span>
+            </div>
+          </div>
+          <p class="hero__lede">
+            A focused studio for craft, taste, and mastery — taught slowly,
+            remembered fully.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#programs">Explore programs</a>
+            <a class="btn btn--ghost" href="#contact">Talk with us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs" id="programs" aria-labelledby="programs-title">
+        <div class="programs__inner">
+          <h2 id="programs-title">Programs that stay with you</h2>
+          <p class="programs__intro">
+            Small cohorts, deliberate practice, and a curriculum built around
+            lasting skill — not disposable content.
+          </p>
+          <ul class="programs__grid">
+            <li>
+              <h3>Craft foundations</h3>
+              <p>Typography, color, and composition with a honey-slow pace.</p>
+            </li>
+            <li>
+              <h3>Motion literacy</h3>
+              <p>Timing, easing, and restraint so every animation earns its place.</p>
+            </li>
+            <li>
+              <h3>Studio critique</h3>
+              <p>Weekly reviews that sharpen taste without burning you out.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <p>Amber Academy · hello@amber.academy</p>
+    </footer>
+
+    <svg
+      class="honey-defs"
+      aria-hidden="true"
+      width="0"
+      height="0"
+      focusable="false"
+    >
+      <filter id="honey-goo" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+        <feColorMatrix
+          in="blur"
+          type="matrix"
+          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+          result="goo"
+        />
+      </filter>
+    </svg>
+
+    <script src="js/honey-drip.js" defer></script>
+  </body>
+</html>
